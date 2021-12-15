@@ -13,6 +13,7 @@
     <div class="container">
         <div class="weather-app-wrapper">
         <div class="weather-app">
+            <div class="overview">
     <h1> Belmont
 
     </h1>
@@ -26,12 +27,17 @@
 
         </li>
     </ul>
+</div>
     <div class="row">
         <div class="col-6">
-            <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+            <div class="clearfix weather-temperature">
+            <img 
+            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
             alt="Partly cloudy"
-            />
-            54°F | °C
+            class="float-left"
+            /><div class="float-left"><strong> 50 </strong><span class="units">°C | <a href="#">°F</a></span>
+            </div>
+            </div>
         </div>
         <div class="col-md-6">
             <ul>
